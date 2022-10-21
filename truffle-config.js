@@ -26,7 +26,7 @@
 const path = require("path");           // path of the ABI
 
 module.exports = {
-    contracts_build_directory: path.join(__dirname, "client/src/contracts"),
+    contracts_build_directory: path.join(__dirname, "client/src/abis"),
 
 /**
  * Networks define how you connect to your ethereum client and let you set the
